@@ -217,9 +217,17 @@ button i {
     border-radius: 10px;
     width: 50vw;
     overflow: hidden;
+    
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+   
 }
 .landing-container img {
 width: 100%;
+padding: 0;
+margin: 0;
+
 }
 
 
@@ -326,6 +334,9 @@ width: 100%;
            
             flex-direction: column;
         
+        }
+        .discription-containerh1 {
+            text-align: center;
         }
         .product-container {
             position: static;
